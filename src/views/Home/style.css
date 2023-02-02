@@ -1,0 +1,37 @@
+@font-face {
+    font-family: title;
+    src: url('../../fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf');
+ }
+
+.home{
+    background: url('https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/04/Curso-online.jpg?quality=100&strip=info&w=1280&h=720&crop=1') no-repeat;
+    background-size: cover;
+    background-color: #082836;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    padding: 0 130px;
+}
+
+
+.home h1{
+    margin: 10px;
+    color: #f2f2f2;
+    font-weight: 600;
+    text-shadow: #252525 1px 1px 5px;
+
+
+}
+
+
+.home-form{
+background-color: #e4d506d0;
+min-height: calc(100vh - 70px);
+
+}
+
+@media only screen and (max-width: 717px) {
+
+    .home{
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,41 @@
+.form-group {
+    padding: 15px;
+
+}
+
+/* Step */
+.step-11,
+.step-12,
+.step-13,
+.step-14,
+.step-22,
+.step-23,
+.step-24,
+.step-33,
+.step-34,
+.step-44 {
+    background-color: #157347;
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.step-10,
+.step-21,
+.step-31,
+.step-41,
+.step-32,
+.step-42,
+.step-43 {
+    background-color: #b6b5b5;
+    color: #8b8888;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.steps ul{
+    list-style-type: none;
+    display: flex;
+}
